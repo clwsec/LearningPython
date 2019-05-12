@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# time:2019/4/30
+# time: 2019/4/30
 
 # 利用递归函数移动汉诺塔:
 def move(n, a, b, c):
