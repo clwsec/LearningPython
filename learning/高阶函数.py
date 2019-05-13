@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # time: 2019/5/4
 
-# # 规范用户名输入
+# # 这里，规范用户名输入
 # def normalize(name):
 #     return name[:1].upper() + name[1:].lower()
 #
