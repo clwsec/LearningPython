@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# time:2019/4/21
+# time: 2019/4/21
 
 # https://www.zhihu.com/question/26930016/answer/99243411
 # 简单的装饰

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# time:2019/4/21
+# time: 2019/4/21
 
 # 关于闭包
 def outer():

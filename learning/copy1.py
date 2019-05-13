@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# time:2019/4/20
+# time: 2019/4/20
 
 from copy import deepcopy, copy
 
