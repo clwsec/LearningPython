@@ -19,11 +19,15 @@ print(a)
 def foo(s):
     return 10 / int(s)
 
+
 def bar(s):
     return foo(s) * 2
 
+
 def main():
     bar('0')
+
+
 try:
     main()
 except ZeroDivisionError as e:
@@ -51,4 +55,3 @@ def bar():
 
 bar()
 '''
-

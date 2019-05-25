@@ -19,7 +19,7 @@ print(fib(6))
 for i in fib(6):
     print(i)
 
-# 通过捕获StopIteration错误，获取return返回值，返回值包含在StopIteration的value中
+# 通过捕获StopIteration错误，获取return返回值，返回值包含在StopIteration的value中，用return无用。
 g = fib(6)
 while True:
     try:

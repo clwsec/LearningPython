@@ -123,9 +123,9 @@ def log(txt=None):
         def wrapper(*args, **kw):
             print('%s %s():' % (txt, func.__name__))
             return func(*args, **kw)
-
+        
         return wrapper
-
+    
     return decorator
 
 

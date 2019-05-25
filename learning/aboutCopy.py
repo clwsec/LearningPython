@@ -8,6 +8,7 @@ a = [1, 2, 3, 4, ['a', 'b']]  # 原始对象
 
 b = a  # 赋值，传对象的引用
 c = copy(a)  # 对象拷贝，浅拷贝
+print(c)
 d = deepcopy(a)  # 对象拷贝，深拷贝
 
 a.append(5)  # 修改对象a
@@ -17,3 +18,13 @@ print('a = ', a)
 print('b = ', b)
 print('c = ', c)
 print('d = ', d)
+
+print("***************************************")
+c[4].append('d')
+
+print('a = ', a)
+print('b = ', b)
+print('c = ', c)
+print('d = ', d)
+
+# http://www.runoob.com/w3cnote/python-understanding-dict-copy-shallow-or-deep.html

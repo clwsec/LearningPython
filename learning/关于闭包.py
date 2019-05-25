@@ -6,10 +6,10 @@
 def outer():
     x = 1
     y = 'a'
-
+    
     def inner():
         print(x, y)  # 1
-
+    
     return inner
 
 
