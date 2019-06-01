@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # Date: 2019/5/18
 
-# 将类的属性都应该是大写形式，首先用简单的方法写
+# 将类的属性都改成相应的大写形式，首先用简单的方法写
 # 元类会自动将你通常传给‘type’的参数作为自己的参数传入
 def upper_attr(future_class_name, future_class_parents, future_class_attr):
     '''返回一个类对象，将属性都转为大写形式'''
