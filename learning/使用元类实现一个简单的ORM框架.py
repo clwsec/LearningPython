@@ -62,7 +62,7 @@ class Model(dict, metaclass=ModelMetaclass):
         params = []
         args = []
         for k, v in self.__mappings__.items():
-            # print('k=', k, 'v=', v, 'v.name=', v.name)
+            # print('k=', k, 'v=', v, 'v.name=', v.name, 'v.column_type=', v.column_type)
             fields.append(v.name)
             params.append('?')
             args.append(getattr(self, k, None))
